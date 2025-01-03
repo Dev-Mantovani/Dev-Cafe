@@ -59,3 +59,57 @@ font-family: "Pacifico", serif;
     border-radius: 50%;
     margin-right: 10px;
 }
+
+.div-list {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 2rem;
+padding: 5px;
+
+}
+
+.button-list {
+background-color: #784538;
+border: none;
+border-radius: 20px;
+padding: 5px 15px;
+color: white;
+font-size: 16px;
+}
+
+.button-list:hover {
+transform: scale(1.05);
+transition-duration: 200ms;
+cursor: pointer;
+}
+
+.menu-list {
+
+display: flex;
+flex-direction: row;
+list-style: none;
+gap: 2rem;
+
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #ffffffb3;
+    display: inline-block;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+
+}
+
+.menu-link:hover {
+    color: white;
+    transition-duration: 500ms;
+
+
+}
+
+.button-list{
+margin-left: 5px;
+
+}
