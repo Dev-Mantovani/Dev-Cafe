@@ -24,3 +24,38 @@ header {
     align-items: center;
 
 }
+
+.container-header {
+
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-logo {
+    display: flex;
+    margin: 0 10px;
+
+}
+
+.div-logo a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-size: 2rem;
+line-height: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2px;
+letter-spacing: 1px;
+padding: 0 20px 5px 0;
+font-family: "Pacifico", serif;
+}
+
+.div-logo-img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
